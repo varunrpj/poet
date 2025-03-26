@@ -14,6 +14,10 @@ An article on Uber Engineering Blog describing POET can be found [here](https://
 - [NEAT-Python](https://neat-python.readthedocs.io/en/latest/installation.html)
 - [OpenAI Gym](https://github.com/openai/gym)
 
+Changes to make to code before running:
+- In ```poet/poet_distributed_niches/box2d/bipedal_walker_custom.py```, change all instances of ```randint(<arguments>)``` to ```integers(<arguments>)```.
+- When downloading Python libraries, use ```sudo pip install <library>``` rather than simply ```pip install <library>```.
+
 ## Run Enhanced POET locally
 
 To run locally on a multicore machine
