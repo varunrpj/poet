@@ -22,7 +22,7 @@ Changes to make to code before running:
 
 To run locally on a multicore machine
 
-```./run_poet_local.sh final_test```
+```sudo ./run_poet_local.sh final_test```
 
 ## Run Enhanced POET on a Kubernetes cluster
 
@@ -30,7 +30,7 @@ Follow instructions [here](https://uber.github.io/fiber/advanced/#working-with-p
 
 Then run the following command:
 
-```./run_poet_remote.sh final_test```
+```sudo ./run_poet_remote.sh final_test```
 
 To get the training logs:
 
